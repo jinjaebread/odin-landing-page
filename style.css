@@ -5,13 +5,20 @@ body {
 
 .header {
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
 }
 
 .headerLogo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: start;
+}
+
+.right-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
 }
 
 .headerContent {
