@@ -1,7 +1,35 @@
-.header {
+body {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
+    flex-direction: column;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headerLogo {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContent {
+    display: flex;
+}
+
+.infoContainer {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+.callToAction {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
