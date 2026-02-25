@@ -65,12 +65,18 @@ img.heroImage {
 
 .infoContainer {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .info {
     display: flex;
     justify-content: space-evenly;
+    max-width: 300px;
+}
+
+.infoImage {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }
 
 .infoHeader {
@@ -107,5 +113,31 @@ img.heroImage {
 }
 
 .callToAction {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    color: white;
+    border: 100px solid #3882F6;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.ctaHeader {
+    font-size: 22px;
+}
+
+.ctaText {
+    color: white;
+}
+
+.ctaButton {
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
