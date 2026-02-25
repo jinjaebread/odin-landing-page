@@ -33,6 +33,7 @@ body {
 
 .headerContent {
     display: flex;
+    margin: 50px;
 }
 
 .heroMainText {
@@ -66,12 +67,12 @@ img.heroImage {
 .infoContainer {
     display: flex;
     justify-content: center;
+    gap: 50px;
+    margin: 50px;
 }
 
-.info {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 300px;
+.text {
+    max-width: 208px;
 }
 
 .infoImage {
