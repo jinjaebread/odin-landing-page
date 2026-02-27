@@ -93,27 +93,31 @@ img.heroImage {
 
 /* THE THOR QUOTE SECTION */
 
-.quote {
+.quoteContainer {
     background-color: #E5E7EB;
     padding: 100px;
+}
+
+.quote {
     
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 .quoteText {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
-    max-width: 800px;
 }
 
 .author {
     font-weight: 900;
-    max-width: 800px;
-    border: 5px solid blue;
+    width: 100%;
+    text-align: right;
 }
 
 /* CALL TO ACTION STUFF */
