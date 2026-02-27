@@ -64,6 +64,8 @@ img.heroImage {
     gap: 50px;
 }
 
+/* THE INFO CARD THANG */
+
 .infoContainer {
     display: flex;
     justify-content: center;
@@ -89,30 +91,32 @@ img.heroImage {
     padding: 50px;
 }
 
+/* THE THOR QUOTE SECTION */
+
 .quote {
     background-color: #E5E7EB;
     padding: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .quoteText {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    max-width: 800px;
 }
 
 .author {
-    display: flex;
     font-weight: 900;
-    justify-content: right;
+    max-width: 800px;
+    border: 5px solid blue;
 }
 
-.footer {
-    display: flex;
-    font-family: "roboto";
-    background-color: #1F2937;
-    justify-content: center;
-    padding: 50px;
-}
+/* CALL TO ACTION STUFF */
 
 .callToAction {
     display: flex;
@@ -142,4 +146,14 @@ img.heroImage {
     border-radius: 10px;
     display: flex;
     justify-content: center;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    font-family: "roboto";
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 50px;
 }
