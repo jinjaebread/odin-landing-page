@@ -90,7 +90,8 @@ img.heroImage {
 }
 
 .quote {
-    background-color: #E5E7EB
+    background-color: #E5E7EB;
+    padding: 100px;
 }
 
 .quoteText {
