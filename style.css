@@ -20,20 +20,26 @@ body {
 .heroContainer {
     display: flex;
     flex-direction: column;
+    max-width: 700px;
     padding: 75px;
+    gap: 10px;
 }
 
 .button {
-    display: flex;
-    color: #3882F6;
-    padding: 0px;
-    gap: 0px;
-    margin: 0px;
+    color: white;
+    background-color: #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    max-width: 60px;
+    text-align: center;
 }
 
 .headerContent {
     display: flex;
     margin: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
 }
 
 .heroMainText {
@@ -48,7 +54,8 @@ body {
 }
 
 img.heroImage {
-    width: 300px;
+    height: 200px;
+    width: 600px;
 }
 
 .headerLogo {
@@ -75,11 +82,14 @@ img.heroImage {
 
 .text {
     max-width: 208px;
+    font-size: 20px;
 }
 
 .infoImage {
     border: 5px solid #3882F6;
     border-radius: 10px;
+    width: 300px;
+    height: 300px;
 }
 
 .infoHeader {
@@ -135,7 +145,7 @@ img.heroImage {
     border: 75px solid #3882F6;
     background-color: #3882F6;
     border-radius: 10px;
-    flex-grow: 3;
+    flex-grow: 2;
     gap: 100px;
 }
 
@@ -165,6 +175,7 @@ img.heroImage {
     display: flex;
     font-family: "roboto";
     background-color: #1F2937;
+    color: white;
     justify-content: center;
-    padding: 50px;
+    padding: 36px;
 }
