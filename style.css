@@ -141,12 +141,14 @@ img.heroImage {
 
 .card {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 100px;
+    gap: 500px;
     color: white;
-    border: 75px solid #3882F6;
     background-color: #3882F6;
     border-radius: 10px;
-    flex-grow: 2;
-    gap: 100px;
 }
 
 .ctaLeft {
@@ -165,8 +167,7 @@ img.heroImage {
 .ctaButton {
     border: 2px solid white;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
+    padding: 8px 20px;
 }
 
 /* FOOTER */
